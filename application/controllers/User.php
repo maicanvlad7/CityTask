@@ -13,8 +13,8 @@ class User extends CI_controller
     
     function login()
     {
-        //load header here;
-        $this->load->view('user_actions/login');
-        //load footer here;
+        $this->load->view('loginHeader');//load header here;
+        $this->load->view('user/login');
+        $this->load->view('loginFooter');//load footer here;
     }
 }
