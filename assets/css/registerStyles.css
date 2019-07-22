@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+
+.mg-center{
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.reg-header{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.crd{
+    transition-duration: 0.2s;
+}
+
+.crd:hover{
+    transform: scale(1.05);
+}
+
+.shadow-sm{
+    box-shadow: 0 .125rem .25rem rgba(36, 130, 207, 0.35)!important;
+}
+
+#reg-norm-acc{
+    display: none;
+}
+
+.joiner{
+    text-align: center;
+    margin-bottom: 6.5%;
+}
+
+.joinerTop{
+    text-align: center;
+    
+}

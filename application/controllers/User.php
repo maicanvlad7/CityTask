@@ -17,4 +17,11 @@ class User extends CI_controller
         $this->load->view('user/login');
         $this->load->view('loginFooter');//load footer here;
     }
+
+    function register()
+    {
+        $this->load->view('registerHeader');//load header here;
+        $this->load->view('user/register');
+        $this->load->view('registerFooter');//load footer here;
+    }
 }

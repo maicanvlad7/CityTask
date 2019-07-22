@@ -1,0 +1,51 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.under-custom{
+    color: rgb(255, 255, 255)!important;
+    font-weight: 400;
+    transition-duration: 0.2s;
+    border-bottom: solid transparent;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.under-custom:hover{
+    color: rgb(45, 167, 204);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(45, 167, 204);
+}
+
+.joiner{
+    border: 2px solid rgb(45, 167, 204);
+    border-radius: 5px;
+}
+
+.city-nav{
+    background-color: rgb(19, 18, 18)!important;
+}
+
+.mr-center{
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    padding-top: 10%;
+}
+
+header{
+    height: 70vh;
+}
